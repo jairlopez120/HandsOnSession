@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
                 String username = user.getText().toString();
                 String password = pass.getText().toString();
 
+
+                System.out.println("Hello World");
                 if(username.equals("abd") && password.equals("123"))
                 {
                     //successful login
